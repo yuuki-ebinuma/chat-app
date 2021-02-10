@@ -1,56 +1,64 @@
-.wrapper{
+.wrapper {
   display: flex;
 }
-.side-bar{
+
+.side-bar {
   background-color: #253141;
   width: 300px;
-  height: 100vh
+  height: 100vh;
 }
-.side-bar-header{
-height: 100px;
-padding: 0 20px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-background-color: #253141;
-}
-.header-name a{
-  color:#FAFAFA;
-  font-size: 16px ;
-  text-decoration: none;
-}
-.create-room a{
-  border: 1px solid lightblue;
-  font-size: 10px;
-  color: deepskyblue;
-  padding: 14px;
-  text-decoration: none;
 
+.side-bar-header {
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.rooms{
+
+.header-name a{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room a {
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+.rooms {
   background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
   overflow: scroll;
 }
-.room{
+
+.room {
   padding: 20px 0 40px;
 }
-.chat-room-name a{
-  color: white;
+
+.room-name a {
   text-decoration: none;
+  color: white;
 }
 
-.chat{
-  background-color: #ffffff;
+.chat {
+  background-color: #FFFFFF;
   width: calc(100vw - 300px);
 }
-.chat-header{
+
+.chat-header {
   height: 100px;
   padding: 0 40px;
   display: flex;
   justify-content: space-between;
 }
+
 .header-title {
   color: #333;
   font-size: 24px;
@@ -66,7 +74,6 @@ background-color: #253141;
   border: 1px solid darkred;
   color: darkred;
   padding: 20px;
-  overflow: scroll;
 }
 
 .messages {
@@ -109,19 +116,13 @@ background-color: #253141;
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
-}
-
-.form {
-  background-color: #DDDDDD;
-  height: 90px;
-  padding: 20px 40px;
   display: flex;
 }
 
 .form-input {
   background-color: white;
-  width: 100%;
   display: flex;
+  width: 100%;
 }
 
 .form-message {
@@ -140,7 +141,8 @@ background-color: #253141;
   margin-left: 15px;
   padding: 0 20px;
 }
-.form-image{
+
+.form-image {
   font-size: 12px;
   background-color: lightblue;
   color: white;
